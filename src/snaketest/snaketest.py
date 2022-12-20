@@ -1,5 +1,5 @@
 from itertools import product
-class SM(object):
+class snaketest(object):
     def __init__(self,**xargs):
         self.items = xargs
     def __getattribute__(self,attr):
