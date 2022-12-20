@@ -20,13 +20,13 @@ input = snaketest(
 ```
 You can even use wildcards in them
 ```python
-output = SM(
+output = snaketest(
     csv='results/table_{chromosome}.csv',
 )
 ```
 But if you do you gotta create a wildcard SM which the other SM classes will refer to
 ```python
-wildcards = SM(
+wildcards = snaketest(
   chromosome="chrY"
 )
 ```
